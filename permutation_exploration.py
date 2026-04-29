@@ -27,6 +27,7 @@ print(f"Commutator: {commutator}")             # Permutation multiplication
 print(f"Order: {commutator.order()}")          # Order of the permutation
 print(f"Cycle Form: {commutator.cyclic_form}") # Cycle notation
 print(f"Permutation Form: {commutator.array_form}") # Permutaion notation
+print(f"Simple Transpositions: {commutator.transpositions()}")
 print(f"Sign: {commutator.signature()}")       # Sign of permutation
 
 print("Facelet notation:")
@@ -35,4 +36,6 @@ print(f"Commutator: {commutator}")             # Permutation multiplication
 print(f"Order: {commutator.order()}")          # Order of the permutation
 print(f"Cycle Form: {commutator.cyclic_form}") # Cycle notation
 print(f"Permutation Form: {commutator.array_form}") # Permutaion notation
+print(f"Simple Transpositions: {commutator.transpositions()}")
 print(f"Sign: {commutator.signature()}")       # Sign of permutation
+
